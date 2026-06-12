@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <!-- Internal CSS -->
+    <style>
+      body {
+        margin: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Student Onboarding Form</legend>
+      <form>
+        <label for="">Name:</label>
+        <input type="text" placeholder="Enter your name here" />
+        <br />
+        <br />
+        <label for="">DOB:</label>
+        <input type="date" />
+        <br />
+        <br />
+        <label for="balance">Balance</label>
+        <input type="number" />
+        <br />
+        <br />
+        <label for="gender" name="gender">Gender</label>
+        <br />
+        <input type="radio" value="Male" name="gender" />
+        <label for="male">Male</label>
+        <br />
+        <input type="radio" value="female" name="gender" />
+        <label for="female">Female</label>
+        <br />
+        <br />
+        <label for="question" name="spice">Which of these are spices</label>
+        <br />
+        <input type="checkbox" value="salt" name="spice" />
+        <label for="salt">Salt</label>
+        <br />
+        <input type="checkbox" value="pepper" name="spice" />
+        <label for="pepper">Pepper</label>
+        <br />
+        <input type="checkbox" value="turmeric" name="spice" />
+        <label for="turmeric">Turmeric</label>
+        <br />
+        <input type="checkbox" value="potato" name="spice" />
+        <label for="potato">Potato</label>
+        <br />
+        <br />
+        <label for="rating" name="rating-value">Rating</label>
+        <input type="range" min="0" max="5" default="" name="rating-value" />
+        <br />
+        <br />
+        <label for="password">Password</label>
+        <input type="password" />
+        <br />
+        <br />
+        <button type="submit">Click me</button>
+      </form>
+    </fieldset>
+  </body>
+</html>

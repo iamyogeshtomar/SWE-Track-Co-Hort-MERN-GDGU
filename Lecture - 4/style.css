@@ -1,0 +1,80 @@
+h1 {
+  background-color: tan;
+  border: 2px solid yellow;
+}
+
+/* .items {
+  background-color: seagreen;
+} */
+
+#item-3 {
+  font-size: xx-large;
+}
+
+/* body {
+  display: flex;
+  padding: 5vh 5vw 5vh 5vw;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* 
+.items:nth-child(even) {
+  background-color: slategray;
+}
+
+.items:nth-child(odd) {
+  background-color: lightgray;
+} */
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#sample-image {
+  /* Viewport height/width works in respect to the visible screen size */
+  width: 30vw;
+  height: 30vh;
+}
+
+#image-container {
+  border: 2px solid black;
+  width: 780px;
+  height: 780px;
+}
+
+#image-contain {
+  /* Percentage works in respect to parent */
+  width: 90%;
+  height: 90%;
+}
+
+#square {
+  height: 100vmin;
+  width: 100vmin;
+  background-color: gray;
+}
+
+body {
+  /* background-image: url("./RR.avif");
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: repeat-y; */
+
+  /* background: 50% 50% contain repeat-y; */
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    font-style: oblique;
+    line-height: 40px;
+
+    border: 2px solid purple;
+    margin: 80px 120px 10px 30px;
+    padding: 120px 40px;
+
+    /* font:oblique 300 90px 3em 'Lucida Sans', Geneva, Verdana */
+}
