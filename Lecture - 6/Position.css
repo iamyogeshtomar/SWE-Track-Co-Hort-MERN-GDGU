@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#parent {
+  background-color: darkgray;
+  min-height: 40vh;
+  position: relative;
+}
+
+#greatgrandparent {
+  min-height: 200vh;
+  background-color: saddlebrown;
+  position: relative;
+}
+
+#grandparent {
+  min-height: 100vh;
+  background-color: thistle;
+  /* position: relative; */
+}
+
+#heading-1 {
+  background-color: brown;
+  /* offset */
+  /* top: 0px; */
+  /* bottom: 0px; */
+  /* right: 200px; */
+}
+#heading-2 {
+  background-color: green;
+}
+#heading-3 {
+  background-color: blueviolet;
+}
+
+.heading {
+  position: sticky;
+  top: 0;
+}
+
+.platform {
+  width: 50px;
+  height: 50px;
+  border: 2px solid cyan;
+}
+
+#platform-1 {
+  background-color: greenyellow;
+}
+#platform-2 {
+  background-color: pink;
+}
+#platform-3 {
+  background-color: blue;
+}
+#platform-4 {
+  background-color: yellow;
+}
+
+#socials {
+  position: fixed;
+  right: 0;
+  top: 40vh;
+}
