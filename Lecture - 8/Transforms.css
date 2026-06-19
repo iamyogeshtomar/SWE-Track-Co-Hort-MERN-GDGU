@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box {
+  min-height: 40vmin;
+  min-width: 40vmin;
+  background-color: lime;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid yellowgreen;
+}
+
+#box-heading {
+  color: grey;
+}
+
+.box {
+  /* transform: rotateX(25deg) rotateY(180deg) rotateZ(65deg); */
+  /* transform: skewX(45deg) skewY(30deg); */
+}
+
+/* 
+Homework
+Center an element without using flex or grid
+Use transform and translate
+*/
+.box:hover {
+  /* transform: scaleX(1.5) scaleY(2) scaleZ(3); */
+  /* transform: translateX(25px) translateY(45px); */
+}
+
+/* 
+.heading {
+  transform:rotateX(deg);
+} */

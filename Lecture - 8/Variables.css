@@ -1,0 +1,20 @@
+:root {
+  --primary-color: red;
+  --secondary-color: orangered;
+  --dark-background: darkgray;
+  --dark-color: white;
+  --light-background: white;
+  --light-color: black;
+  --aniket-ka-selected-color: green;
+}
+
+#light {
+  background-color: var(--dark-background);
+  color: var(--dark-color);
+  border: 2px solid var(--aniket-ka-selected-color);
+}
+
+#dark {
+  background-color: var(--light-background);
+  color: var(--light-color);
+}

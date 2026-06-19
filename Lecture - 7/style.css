@@ -1,0 +1,31 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-container {
+  min-width: 400px;
+  min-height: 100vh;
+  border: 2px solid black;
+  /* background: linear-gradient(in oklch, yellow, violet); */
+  /* background: radial-gradient(farthest-corner, green 40%, orangered 60%, pink 20%); */
+  /* background: linear-gradient(
+    15deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  ); */
+}
+
+#main-list {
+  width: 390px;
+  border: 2px solid red;
+  margin: 12px;
+  padding: 8px;
+}

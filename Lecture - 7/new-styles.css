@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-container {
+  min-height: 100vh;
+  /* background: linear-gradient(yellow, lightgreen); */
+}
+
+.list-items {
+  background-color: cornflowerblue;
+  border: 1px solid maroon;
+}
+
+.list-items:nth-child(3n + 1) {
+  background-color: silver;
+}
+
+#item-7 {
+  color: pink;
+}
+
+#item-7:hover {
+  border: 2px solid black;
+}
+
+.links:visited {
+  color: green;
+}
