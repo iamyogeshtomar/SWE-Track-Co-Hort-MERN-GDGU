@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#parent {
+  height: 50vmin;
+  width: 50vmin;
+  background-color: springgreen;
+}
+
+#child {
+  height: 40%;
+  width: 40%;
+  background-color: tomato;
+  animation: change 2s linear 0s infinite alternate both;
+  /* transition:  transform 1s ease-in-out; */
+}
+
+#child:hover {
+  /* transform: translateX(100%); */
+  /* background-color: violet; */
+  animation-name: change;
+  /* animation-play-state: paused; */
+}
+
+@keyframes change {
+  0% {
+    transform: translateX(0%);
+    background-color: red;
+  }
+  33% {
+    transform: translateX(33%);
+    background-color: orange;
+  }
+  66% {
+    transform: translateX(66%);
+    background-color: yellow;
+  }
+  100% {
+    transform: translateX(100%);
+    background-color: green;
+  }
+}
